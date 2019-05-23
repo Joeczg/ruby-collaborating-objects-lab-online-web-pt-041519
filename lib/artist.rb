@@ -39,6 +39,6 @@ def self.find_or_create_by_name(name)   #class method uses find/create class
   end
 
   def print_songs #instance method iterates through @songs of an instance of Artist
-    self.songs.each {|song| puts{#{song.name}}
+    self.songs.each {|song| puts song.name}
   end
 end
