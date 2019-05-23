@@ -14,7 +14,8 @@ attr_accessor :name, :songs
   end
 
   def save
-    @@all << self     #saves
+    @@all << self  #saves
+  end
   def self.all      #class method all returns all instances of Artist class 
     @@all
   end
