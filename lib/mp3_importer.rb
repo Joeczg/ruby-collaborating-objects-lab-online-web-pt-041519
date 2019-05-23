@@ -1,3 +1,3 @@
 class MP3Importer
-  def import 
+  def import(list_of_file_name)
     
