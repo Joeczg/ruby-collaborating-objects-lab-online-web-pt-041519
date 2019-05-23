@@ -1,7 +1,5 @@
 class Artist
-   all created instances of Artist class in 
-                      #@@all class variable
-  end
+  
 attr_accessor :name, :songs
   @@all = []  #stores all instances of Artist 
 
